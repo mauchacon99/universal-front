@@ -1,0 +1,64 @@
+.menu-enter,
+.menu-leave-to {
+    @apply transform -translate-x-full;
+}
+.menu-enter-active,
+.menu-leave-active {
+    @apply transition-transform;
+}
+
+.fade-enter,
+.fade-leave-to {
+    @apply opacity-0;
+}
+.fade-enter-active,
+.fade-leave-active {
+    @apply transition-opacity;
+}
+
+.slide-down-mobile-enter,
+.slide-down-mobile-leave-to {
+    @apply transform -translate-y-5 opacity-0;
+}
+.slide-down-mobile-enter-active,
+.slide-down-mobile-leave-active {
+    @apply transition-all;
+}
+
+@screen lg {
+    .slide-down-mobile-enter,
+    .slide-down-mobile-leave-to {
+        @apply transform-none;
+    }
+    .slide-down-mobile-enter-active,
+    .slide-down-mobile-leave-active {
+        @apply transition-none;
+    }
+}
+
+.slide-down-enter,
+.slide-down-leave-to {
+    @apply transform -translate-y-5 opacity-0 !important;
+}
+.slide-down-enter-active,
+.slide-down-leave-active {
+    @apply transition-all;
+}
+
+.slide-left-enter,
+.slide-left-leave-to {
+    @apply transform translate-x-10 opacity-50 !important;
+}
+.slide-left-enter-active,
+.slide-left-leave-active {
+    transition: opacity 0.2s ease-out, transform 0.3s ease-out;
+}
+
+.zoom-enter,
+.zoom-leave-to {
+    @apply transform -translate-x-10 opacity-10 md:scale-50 md:-translate-x-1/2 md:-translate-y-1/2 !important;
+}
+.zoom-enter-active,
+.zoom-leave-active {
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
