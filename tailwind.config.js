@@ -20,6 +20,15 @@ module.exports = {
         },
         extend: {
             colors: {
+                blue:{
+                    '500':'#006CAD'
+                },
+                golden:{
+                    default:'#C4AD76'
+                },
+                gray:{
+                    '500':'#707070'
+                },
                 brand: {
                     primary: {
                         DEFAULT: '#fff',

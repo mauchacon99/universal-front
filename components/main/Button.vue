@@ -40,7 +40,7 @@ export default Vue.extend({
         backgrounds: {
             type: String,
             required: false,
-            default: `bg-blue-200 hover:bg-blue-600`
+            default: `bg-blue-500`
         },
         fixedClasses: {
             type: String,
