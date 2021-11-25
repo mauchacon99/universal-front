@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="flor" transform="translate(-64 -64)">
+    <path id="Path_57806" data-name="Path 57806" d="M71.158,256H76.5v1.7a7.158,7.158,0,0,1-7.158,7.158H64v-1.7A7.158,7.158,0,0,1,71.158,256Z" transform="translate(0 -179.5)" fill="#b79a57"/>
+    <path id="Path_57807" data-name="Path 57807" d="M263.158,120H268.5v1.7a7.158,7.158,0,0,1-7.158,7.158H256v-1.7A7.158,7.158,0,0,1,263.158,120Z" transform="translate(-179.5 -52.354)" fill="#b79a57"/>
+    <path id="Path_57810" data-name="Path 57810" d="M7.158,0H12.5V1.7A7.158,7.158,0,0,1,5.342,8.854H0v-1.7A7.158,7.158,0,0,1,7.158,0Z" transform="translate(76.5 89) rotate(-90)" fill="#b79a57"/>
+    <path id="Path_57811" data-name="Path 57811" d="M7.158,0H12.5V1.7A7.158,7.158,0,0,1,5.342,8.854H0v-1.7A7.158,7.158,0,0,1,7.158,0Z" transform="translate(67.646 76.5) rotate(-90)" fill="#b79a57"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="3.5" cy="3.5" r="3.5" transform="translate(73 73)" fill="#b79a57"/>
+  </g>
+</svg>
