@@ -1,5 +1,8 @@
 <template>
-    <div class="template-header"></div>
+    <div class="container-fluid">
+        <NavMobile/>
+        <NavDesktop/>
+    </div>
 </template>
 
 <script lang="ts">

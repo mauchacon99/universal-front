@@ -33,7 +33,10 @@ export default {
         '~/components',
         { path: '~/components/misc', prefix: 'misc' },
         { path: '~/components/template', prefix: 'template' },
-        { path: '~/components/main', prefix: 'main' }
+        { path: '~/components/buttons', prefix: 'button' },
+        { path: '~/components/titles', prefix: 'title' },
+        { path: '~/components/cards', prefix: 'card' },
+        { path: '~/components/navs', prefix: 'nav' }
     ],
 
     // https://tailwindcss.nuxtjs.org/options

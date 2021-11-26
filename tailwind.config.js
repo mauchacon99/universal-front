@@ -27,7 +27,7 @@ module.exports = {
                     default:'#C4AD76'
                 },
                 gray:{
-                    '500':'#707070'
+                    default:'#707070'
                 },
                 brand: {
                     primary: {
