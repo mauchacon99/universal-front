@@ -1,14 +1,10 @@
 <template>
-    <NLink
-        v-if="link"
-        :to="link"
-        :class="[reset ? [fixedClasses] : [classes, colorText, padding, backgrounds, fixedClasses]]"
-    >
+    <NLink v-if="link" :to="link" :class="[reset ? [fixedClasses] : [classes, padding, backgrounds, fixedClasses]]">
         {{ title }}
     </NLink>
     <button
         v-else
-        :class="[reset ? [fixedClasses] : [classes, colorText, padding, backgrounds, fixedClasses]]"
+        :class="[reset ? [fixedClasses] : [classes, padding, backgrounds, fixedClasses, styleText]]"
         @click="$emit('click')"
         @blur="$emit('blur')"
     >
@@ -20,7 +16,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-    name: 'Button',
+    name: 'Generic',
     props: {
         label: {
             type: String,
@@ -46,7 +42,7 @@ export default Vue.extend({
             type: String,
             required: false
         },
-        colorText: {
+        styleText: {
             type: String,
             required: false,
             default: 'text-white'
