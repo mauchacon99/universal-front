@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.322" height="18.322" viewBox="0 0 18.322 18.322">
+  <g id="Group_8636" data-name="Group 8636" transform="translate(-293 -582.474)">
+    <rect id="Rectangle_3483" data-name="Rectangle 3483" width="18.322" height="18.322" rx="3" transform="translate(293 582.474)" fill="#c4ad76"/>
+    <g id="telefono-movil" transform="translate(292.42 585.634)">
+      <path id="Path_60472" data-name="Path 60472" d="M11.982,0H6.84a.869.869,0,0,0-.889.848V10.79a.868.868,0,0,0,.889.847h5.142a.869.869,0,0,0,.889-.847V.848A.869.869,0,0,0,11.982,0ZM8.142.515h2.538c.064,0,.116.091.116.2s-.052.2-.116.2H8.142c-.065,0-.116-.092-.116-.2S8.078.515,8.142.515ZM9.411,10.8a.541.541,0,1,1,.567-.541A.555.555,0,0,1,9.411,10.8ZM12.2,8.948H6.618V1.43H12.2V8.948Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

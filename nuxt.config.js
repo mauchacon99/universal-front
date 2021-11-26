@@ -30,8 +30,10 @@ export default {
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: [
+        '~/components',
         { path: '~/components/misc', prefix: 'misc' },
-        { path: '~/components/template', prefix: 'template' }
+        { path: '~/components/template', prefix: 'template' },
+        { path: '~/components/main', prefix: 'main' }
     ],
 
     // https://tailwindcss.nuxtjs.org/options
